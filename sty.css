@@ -1,0 +1,80 @@
+body{
+    text-align:center;
+}
+h2, h3 {
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    border-bottom: 2px solid #d95990;
+    width: fit-content;
+}
+.btn{
+    height:200px;
+    width:200px;
+  border:5px solid black;
+  border-radius:100%;
+  margin:18px;
+}
+.red{
+    background-color: #d95990;
+
+}
+.green{
+    background-color: #63aac0;
+}
+.yellow{
+    background-color:#f99b45;
+}
+.purple{
+    background-color:#819ff9;
+}
+.box{
+    position: absolute;
+    top:160px;
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    height:500px;
+    width:500px;
+    border-radius:100%;
+    border: 2px solid black;
+position:relative;
+    display:grid;
+    background-color:black;
+    margin:auto;
+    margin-top:50px;
+    display:grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.flash{
+    background-color:white;
+}
+.userFlash{
+    background-color: green;
+}
+ .btn_transition{
+    transition:transfor 0.2s,box-shadow 0.2s;
+
+ }
+ .active{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px white;
+ }
+ .active_user{
+    transform:scale(0.8);
+    box-shadow:0 0 20px white;
+ }
