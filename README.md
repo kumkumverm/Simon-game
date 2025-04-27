@@ -31,12 +31,11 @@ A simple, fun, and colorful Simon memory game built using **HTML**, **CSS**, and
 
 ---
 
-## 📸 Screenshots
+## 📸 Vedio
+![GIF Alt Text](https://github.com/kumkumverm/Simon-game/raw/master/vedio.gif)
 
-![Simon Game Screenshot](https://github.com/kumkumverm/Simon-game/blob/master/Screenshot%202025-04-27%20192243.png?raw=true)
 
 
----
 
 ## 📂 How to Run Locally
 
@@ -46,6 +45,6 @@ A simple, fun, and colorful Simon memory game built using **HTML**, **CSS**, and
 
 2. Open the folder.
 
-3. Open the `index.html` file in your browser.
+3. Open the `ind.html` file in your browser.
 
 4. Play and enjoy! 🎮
